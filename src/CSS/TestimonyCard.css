@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+
+.ProfilePhoto {
+    width: 168px;
+    height: 168px;
+    border-radius: 10rem;
+}
+
+.ProfilePhotoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ProfilePhotoContainer img{
+    object-fit: cover;
+}
+
+.ProfileName {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 20px;
+    margin-top: 1rem;
+}
+
+.ProfileText {
+    text-align: justify;
+}
+
+.container-accessibility{
+    background-color: #4F5459;
+}

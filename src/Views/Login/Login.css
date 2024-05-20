@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+
+.containerGeneralLogin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ContainerFormLogin {
+    display: flex;
+    flex-direction: row;
+    padding-top: 10%;
+}
+
+.ImageLogin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FDFEFF;
+    border: 0.1em solid #000000;
+    border-radius: 3em 0 0 3em;
+    padding: 5em;
+    border-right: 0;
+}
+
+.ImageLogin>img {
+    width: 10em;
+    border-radius: 100%;
+}
+
+.FormLoginDisplay {
+    display: flex;
+    flex-direction: column;
+    background: #4355A8;
+    padding: 1em;
+    margin: 0;
+    border-radius: 0 3em 3em 0;
+    border: 0.1em solid #000000;
+    border-left: 0;
+}
+
+.FormHeader {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.formLogin {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.FormLabel {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1em;
+    color: #FDFEFF;
+    margin: 0;
+}
+
+.login-input {
+    margin-bottom: 1rem;
+    margin-top: 0;
+    background: #FDFEFF;
+    border-radius: 0.5em;
+    width: 100%;
+    border: none;
+
+}
+
+.login-boton {
+    background: linear-gradient(180deg, #F9F139 0%, #FFF846 100%);
+    width: 50%;
+}
+
+.RegisterText {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.8em;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 1.5em;
+}
+
+.RegisterText:hover {
+    text-decoration: none;
+    color: white;
+}

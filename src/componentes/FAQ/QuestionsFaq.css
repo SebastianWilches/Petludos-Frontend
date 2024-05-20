@@ -1,0 +1,20 @@
+.containerQuestions{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;
+}
+
+.containerQuestions > *{
+    text-align: justify;
+}
+
+.containerQuestions img{
+    height: 20rem;
+}
+
+.questions{
+    width: min(60%, 110rem);
+    
+}

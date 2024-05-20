@@ -1,0 +1,6 @@
+.content-normal {}
+
+.content-accessibility > *{
+  text-shadow: 0.01px 0 #fff, -0.01px 0 #fff, 0 0.01px #fff, 0 -0.01px #fff,
+    1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+}

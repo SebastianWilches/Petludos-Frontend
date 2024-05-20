@@ -1,0 +1,42 @@
+.Main-Container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Main-Container > * {
+    margin: auto;
+    padding: 2rem;
+    transform: rotate(180deg);
+}
+
+.Main-Container h1{
+    text-transform: uppercase;
+}
+
+
+.custom-shape-divider-bottom-1679872176 {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    background: linear-gradient(180deg, #FFDB6F 0.52%, #FFECB3 98.44%);
+    z-index: 1;
+    
+}
+
+.custom-shape-divider-bottom-1679872176 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+    margin: auto;
+}
+
+.custom-shape-divider-bottom-1679872176 .shape-fill {
+    fill:white;
+}

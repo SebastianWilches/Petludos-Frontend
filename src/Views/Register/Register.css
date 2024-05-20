@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+
+.containerGeneralRegister {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerFormRegister{
+    display: flex;
+    flex-direction: row;
+    padding-top: 2%;
+}
+
+.ImageRegister {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FDFEFF;
+    border: 0.1em solid #000000;
+    border-radius: 3em 0 0 3em;
+    padding: 5em;
+    border-right: 0;
+}
+
+.ImageRegister>img {
+    width: 10em;
+    border-radius: 100%;
+}
+
+.FormRegisterDisplay {
+    display: flex;
+    flex-direction: column;
+    background: #4355A8;
+    padding: 1em;
+    margin: 0;
+    border-radius: 0 3em 3em 0;
+    border: 0.1em solid #000000;
+    border-left: 0;
+    padding: 2em 5em 0 5em;
+}
+
+.FormHeader {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.formLogin {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.formLogin >p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1em;
+    color: #FDFEFF;
+    margin: 0;
+}
+
+.login-input {
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.login-boton{
+    border: none;
+    font-size: 1rem;
+    padding: 1.0rem;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 1rem;
+    border-radius: 30px;
+    margin: auto;
+}

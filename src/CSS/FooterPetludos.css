@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100&display=swap');
+
+.FooterImageContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+    background: white;
+}
+
+.FooterImage {
+    width: 634px;
+    height: 423px;
+    background: white;
+    mix-blend-mode: multiply;
+}
+
+.FooterBar {
+    display: flex;
+    background: #D1D4F8;
+    margin-bottom: 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.FooterIcons {
+    display: flex;
+    flex-direction: row;
+}
+
+.FooterIcons > img{
+    width: 25px;
+    height: 25px;
+    margin: 1rem;
+}
+
+.FooterEnd {
+    background: #332728;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.FooterEnd>p {
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    color: white;
+    margin-top: 1rem;
+}

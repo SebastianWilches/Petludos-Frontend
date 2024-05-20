@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300;400&family=Inter:wght@400;600;700&display=swap');
+
+:root {
+    --Button: #FFF736;
+    --Text: #FDFEFF;
+    --isPlayful:#FF8713;
+    --isQuiet:#0187C6;
+    --isgoodWithKids:#BE99F2;
+    --isLoving:#D02D3B;
+    --isSociable:#05A62D;
+    --isSpoiled:#F2CB05;
+
+
+    --TypeTitles: 'Inter', sans-serif;
+    --TypeContent: 'Archivo', sans-serif;
+}
+
+h1, h2, h3, h4{
+    font-family: var(--TypeTitles);
+}
+
+p{
+    font-family: var(--TypeContent);
+    text-align: justify;
+}
+
+
+
+.containerPet {
+    width: min(70%, 110rem);
+    margin: 3rem auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10rem;
+
+}
+
+.namePet {
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.petBtn {
+    border-radius: 10px;
+    text-transform: uppercase;
+    background-color: var(--Button);
+    text-decoration: underline;
+    font-weight: 400;
+
+    padding: 0.5rem 1rem;
+    border: none;
+}
+
+.ImagenTest {
+    width: 20rem;
+    height: 20rem;
+
+    border-radius: 14px;
+}
+.descPet{
+    text-transform: capitalize;
+}
+
+/* Personalidad */
+.containerAtributos{
+    margin-bottom: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+}
+.personalityContainer{
+    color: var(--Text);
+    display: inline;
+    padding: 0.2rem 1rem;
+    border-radius: 10px;
+}
+
+.isPlayful{
+    background-color: var(--isPlayful);
+}
+.isQuiet{
+    background-color: var(--isQuiet);
+}
+.isgoodWithKids{
+    background-color: var(--isgoodWithKids);
+}
+.isLoving{
+    background-color: var(--isLoving);
+}
+.isSociable{
+    background-color: var(--isSociable);
+}
+.isSpoiled{
+    background-color: var(--isSpoiled);
+}

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100&display=swap');
+
+#principalNav {
+    padding: 15px;
+    background-color: #4355A8;
+}
+
+.NavBar-Text-normal{
+    color: white;
+    font-family: 'Archivo';
+}
+
+#pageName {
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21.7315px;
+    line-height: 24px;
+    pointer-events: none;
+}
+
+.handHover:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.Bold {
+    font-weight: bold;
+}
+
+.NavBar-Icon {
+    margin-right: 10px;
+}
+
+.UserName {
+    margin-right: 1em;
+}
+
+/* ACCESIBILIDAD */
+.accessibility {
+    text-shadow: 0.01px 0 #fff, -0.01px 0 #fff, 0 0.01px #fff, 0 -0.01px #fff,
+        1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+
+    color: black;
+
+}
+
+.NavBar-Text-accessibility {
+    color: black;
+    font-family: 'Archivo';
+}

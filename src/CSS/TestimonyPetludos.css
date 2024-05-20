@@ -1,0 +1,18 @@
+.TestimonyTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.TestimonyCards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.TestimonyCards > * {
+    margin: auto;
+    align-self: center;
+    justify-self: center;
+}
